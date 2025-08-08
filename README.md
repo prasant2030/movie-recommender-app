@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Movie Recommendation Backend
 
 A FastAPI-based backend for a movie recommendation system with SQLite database.
@@ -51,3 +52,7 @@ movie_recommendation_backend/
 ## API Documentation
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc 
+=======
+# -movie-recommender-app
+ movie-recommender-app
+>>>>>>> 014abcf57a6342f5611e65c90381d3a1de6b23bc
