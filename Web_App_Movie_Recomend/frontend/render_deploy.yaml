@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: movie-recommender-frontend
+    env: python
+    buildCommand: pip install -r requirements_deploy.txt
+    startCommand: streamlit run app_deploy.py --server.port $PORT --server.address 0.0.0.0
+    envVars:
+      - key: API_BASE_URL
+        value: https://movie-recomondation.onrender.com
